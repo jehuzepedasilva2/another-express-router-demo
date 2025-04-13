@@ -1,5 +1,6 @@
-// !The controller is responsible for handling what happens with a request.
-// Controller = The Request Handler
+// !The controller is responsible for handling what happens with a request, or data.
+// !Queries data
+// !Controller = The Request Handler
 const db = require('../db');
 const UserNotFound = require('../errors/userNotFound');
 

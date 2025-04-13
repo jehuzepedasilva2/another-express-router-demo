@@ -1,4 +1,6 @@
-// !router routes to controller
+// !router routes to controller, and defines 
+// ! does not query data
+// !what you a user can do, GET, POST, PUT, DELETE...
 
 const express = require('express');
 const userRouter = express.Router();
