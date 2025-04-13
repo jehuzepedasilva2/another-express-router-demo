@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
 app.use('/users', userRouter);
 
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log('server running...');
 });
